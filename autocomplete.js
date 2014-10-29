@@ -1,7 +1,7 @@
 // ripped off (more or less) from jquery web site.
 // provides autocompletion to a text input
-// element - the text input element
-// resource - the url of the element to retrieve the list
+//   element - the text input element
+//   resource - the url of the element to retrieve the list
 function autocomp (element, resource) {
     element
 		.bind( "keydown", function( event ) {
