@@ -3,7 +3,7 @@
 //   element - the text input element
 //   resource - the url of the element to retrieve the list
 function autocomp (element, resource) {
-    element
+	element
 		.bind( "keydown", function( event ) {
 			if ( event.keyCode === $.ui.keyCode.TAB &&
 					$( this ).data( "ui-autocomplete" ).menu.active ) {
